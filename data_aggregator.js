@@ -227,8 +227,8 @@ let width = 2560;
 let height = 1600;
 async function launchBrowser() {
     try {
-        const browser = await puppeteer.launch({
-            executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        const browser = await puppeteer.launch({            
+            executablePath: '/usr/bin/google-chrome',
             headless: "new",
             defaultViewport: { width, height },
             ignoreHTTPSErrors: true,
@@ -256,7 +256,7 @@ async function launchBrowser() {
 async function launchHBrowser() {
     try {
         const browser = await puppeteer.launch({
-            executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+            executablePath: '/usr/bin/google-chrome',
             headless: "new",
             defaultViewport: { width, height },
         ignoreHTTPSErrors: true,
