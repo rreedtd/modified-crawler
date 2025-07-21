@@ -1,0 +1,11 @@
+@echo off
+
+set CRAWL_BASE_URL=
+set CRAWL_SKIPLIST=
+set CRAWL_ADDITIONAL=
+set CRAWL_DISCO_APIKEY=
+set CRAWL_DISCO_URL=
+set CRAWL_DISCO_PROJECT_ID=
+set CRAWL_DISCO_COLLECTION_ID=
+
+node data_aggregator.js
